@@ -1,0 +1,52 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  line-height: normal;
+}
+
+.fakeinfo {
+  width: 100%;
+  text-align: right;
+  font-family: sans-serif;
+  padding: 3px;
+  color: white;
+  background-color: #0a6ba1;
+}
+
+img#logo {
+  width: 30%;
+  float: left;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+nav a {
+  color: blue;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'roboto';
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #0d8bd1;
+}
+
+img#handsomehero {
+  margin-top: 80px;
+  width: 25%;
+  float: left;
+}
+
+.dropdownboxes{
+  margin-top: 80px;
+  float: right;
+  background-color: #0d8bd1;
+  border-radius: 10px;
+  padding: 40px;
+  font-family: sans-serif;
+}
