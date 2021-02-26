@@ -1,52 +1,110 @@
-body {
-  margin-left: auto;
-  margin-right: auto;
+.everythinginbody {
   max-width: 1000px;
-  line-height: normal;
+  margin: auto;
 }
 
 .fakeinfo {
   width: 100%;
   text-align: right;
   font-family: sans-serif;
-  padding: 3px;
+  padding: 2px;
   color: white;
   background-color: #0a6ba1;
 }
 
+.fakeinfo h3 {
+  font-size: 1.5em;
+}
+
+.fakeinfo p {
+  font-size: smaller;
+}
+
+/*FIGURE OUT POSITIONING*/
+.logonav {
+  position: relative;
+}
+
 img#logo {
-  width: 30%;
+  width: 40%;
   float: left;
 }
 
-nav {
+.mainnav {
   display: inline-block;
   float: right;
+  padding-top: 20px;
 }
 
 nav a {
   color: blue;
-  display: inline-block;
   text-decoration: none;
-  font-family: 'roboto';
-  margin-right: 20px;
+  font-family: sans-serif;
+  margin: 10px;
 }
 
 nav a:hover {
   color: #0d8bd1;
 }
-
+/*THIS POSITIONING MAKES THE <div>s LINE UP.
+ALSO TURNS <nav> USELESS*/
+.maindiv {
+  position: absolute;
+}
+/**/
 img#handsomehero {
-  margin-top: 80px;
-  width: 25%;
+  width: 50%;
+  margin-top: 110px;
   float: left;
 }
 
-.dropdownboxes{
-  margin-top: 80px;
-  float: right;
+.blueform {
+  width: 450px;
+  height: 350px;
+  margin-left: 500px;
+  margin-top: 110px;
+  line-height: 1.2;
   background-color: #0d8bd1;
-  border-radius: 10px;
-  padding: 40px;
+  padding: 10px;
   font-family: sans-serif;
+}
+
+.freequote {
+  text-align: center;
+  color: white;
+}
+
+.freequote h5 {
+  margin-top: 5px;
+}
+
+.theform {
+  background-color: #0a6ba1;
+  padding: 50px;
+}
+
+.theform .statequote {
+  padding-bottom: 25px;
+}
+
+.theform label {
+  display: block;
+}
+
+.theform input {
+  padding: 6px;
+  width: 75%;
+}
+
+.button {
+  color: white;
+  background-color: #f89406;
+  width: 75%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: white;
+  background-color: #f88500;
 }
